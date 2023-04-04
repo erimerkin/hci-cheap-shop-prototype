@@ -21,7 +21,7 @@ export default function OrderConfirmationDialog({ isOpen, title, children, cance
         <React.Fragment>
             <Dialog
                 fullWidth={fullWidth}
-                maxWidth="lg"
+                maxWidth="md"
                 open={open}
                 onClose={cancelAction}
             >
